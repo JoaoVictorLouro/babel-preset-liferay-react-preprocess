@@ -1,0 +1,36 @@
+{
+  "name": "babel-preset-liferay-react-preprocess",
+  "version": "1.0.0",
+  "description": "Babel preset for preprocessing react javascript before running Liferay's NPM Bundler",
+  "main": "index.js",
+  "engines" : {
+    "node" : ">=8.0.0"
+  },
+  "scripts": {},
+  "keywords": [
+    "babel",
+    "preset",
+    "liferay",
+    "react",
+    "portlet"
+  ],
+  "author": "Joao Louro <joao.louro@liferay.com>",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "@babel/plugin-proposal-class-properties": "^7.1.0",
+    "@babel/plugin-proposal-decorators": "^7.1.2",
+    "@babel/plugin-proposal-nullish-coalescing-operator": "^7.0.0",
+    "@babel/plugin-proposal-optional-chaining": "^7.0.0",
+    "@babel/plugin-transform-jscript": "^7.0.0",
+    "@babel/plugin-transform-member-expression-literals": "^7.0.0",
+    "@babel/plugin-transform-property-literals": "^7.0.0",
+    "@babel/plugin-transform-property-mutators": "^7.1.0",
+    "@babel/preset-env": "^7.1.5",
+    "@babel/preset-flow": "^7.0.0",
+    "@babel/preset-react": "^7.0.0"
+  },
+  "peerDependencies": {
+    "@babel/cli": "^7.1.5",
+    "@babel/core": "^7.1.5"
+  }
+}
